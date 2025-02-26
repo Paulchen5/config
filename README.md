@@ -3,7 +3,7 @@
 Install the the oh-my-zsh environment with the following command
 
 ```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/Paulchen5/shellSetup/main/setup.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/Paulchen5/shellSetup/main/setup_shell.sh)"
 ```
 
 ## Install `.gitconfig` Files
