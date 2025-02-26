@@ -1,0 +1,5 @@
+[user]
+    email = lukas.michael@sap.com
+    name = I588389
+[url "git@github.tools.sap"]
+    insteadOf = git@github.com
