@@ -1,0 +1,22 @@
+[user]
+	email = lukas.michael@sap.com
+	name = I588389
+[init]
+	defaultBranch = main
+[core]
+	editor = code --wait
+	autocrlf = input
+[pager]
+	branch = false
+[include]
+	path = ~/.gitconfig.sap
+[includeIf "hasconfig:remote.*.url:https://github.tools.sap/**"]
+  path = ~/.gitconfig.sap
+[includeIf "hasconfig:remote.*.url:https://github.com/**"]
+  path = ~/.gitconfig.personal
+[includeIf "hasconfig:remote.*.url:https://github.com/sapcc/**"]
+  path = ~/.gitconfig.sap
+[commit]
+	gpgsign = true
+[tag]
+	gpgSign = true
