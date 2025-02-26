@@ -1,4 +1,5 @@
 ## Install Shelll Environment
+
 Install the the oh-my-zsh environment with the following command
 
 ```bash
@@ -12,8 +13,10 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/Paulchen5/config/main/setu
 ```
 
 ## Create GPG-Signing-Key
+
 > [!TIP]
 > For further information on creating a GPG key visit the documentation on [docs.github.com](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key)
+
 Generate the GPG key
 
 ```bash
@@ -28,6 +31,7 @@ gpg --armor --export <keyid-long-format>
 ```
 
 Tell git about your signing key
+
 > [!NOTE]
 > Alternatively use the flag option `--global` to add the signing key to your global `.gitconfig`
 

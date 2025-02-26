@@ -11,11 +11,11 @@
 [include]
 	path = ~/.gitconfig.sap
 [includeIf "hasconfig:remote.*.url:https://github.tools.sap/**"]
-  path = ~/.gitconfig.sap
+    path = ~/.gitconfig.sap
 [includeIf "hasconfig:remote.*.url:https://github.com/**"]
-  path = ~/.gitconfig.personal
+    path = ~/.gitconfig.personal
 [includeIf "hasconfig:remote.*.url:https://github.com/sapcc/**"]
-  path = ~/.gitconfig.sap
+    path = ~/.gitconfig.sap
 [commit]
 	gpgsign = true
 [tag]
