@@ -39,3 +39,17 @@ Tell git about your signing key
 git config --global --unset gpg.format
 git config --file <file> user.signingKey <keyid-long-format>
 ```
+
+## Backup and Install Homebrew Formula
+
+Save current state
+
+```bash
+brew bundle dump
+```
+
+Install saved state
+
+```bash
+brew bundle install
+```
