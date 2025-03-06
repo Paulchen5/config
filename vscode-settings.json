@@ -1,0 +1,213 @@
+{
+  "telemetry.telemetryLevel": "off",
+  "explorer.confirmDragAndDrop": false,
+  "workbench.iconTheme": "vscode-icons",
+  "editor.rulers": [
+    80
+  ],
+  "workbench.colorTheme": "GitHub Dark",
+  "ltex.enabled": [
+    "bibtex",
+    "context",
+    "context.tex",
+    "html",
+    "latex",
+    "markdown",
+    "org",
+    "restructuredtext",
+    "rsweave"
+  ],
+  "sap.ux.applicationModeler.showPropertiesDescriptionInPageEditor": true,
+  "editor.semanticTokenColorCustomizations": {
+    "[Default Dark+]": {
+      "rules": {
+        "property.mandatory:xml": {
+          "bold": true
+        },
+        "string.i18n:xml": {
+          "italic": true
+        }
+      }
+    },
+    "[Default Light+]": {
+      "rules": {
+        "property.mandatory:xml": {
+          "bold": true
+        },
+        "string.i18n:xml": {
+          "italic": true
+        }
+      }
+    },
+    "[Default High Contrast]": {
+      "rules": {
+        "property.mandatory:xml": {
+          "bold": true
+        },
+        "string.i18n:xml": {
+          "italic": true
+        }
+      }
+    }
+  },
+  "ltex.language": "de-DE",
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "latexmk",
+      "tools": [
+        "latexmk"
+      ]
+    },
+    {
+      "name": "latexmk (latexmkrc)",
+      "tools": [
+        "latexmk_rconly"
+      ]
+    },
+    {
+      "name": "latexmk (lualatex)",
+      "tools": [
+        "lualatexmk"
+      ]
+    },
+    {
+      "name": "latexmk (xelatex)",
+      "tools": [
+        "xelatexmk"
+      ]
+    },
+    {
+      "name": "pdflatex -> bibtex -> pdflatex * 2",
+      "tools": [
+        "pdflatex",
+        "bibtex",
+        "pdflatex",
+        "pdflatex"
+      ]
+    },
+    {
+      "name": "Compile Rnw files",
+      "tools": [
+        "rnw2tex",
+        "latexmk"
+      ]
+    },
+    {
+      "name": "Compile Jnw files",
+      "tools": [
+        "jnw2tex",
+        "latexmk"
+      ]
+    },
+    {
+      "name": "Compile Pnw files",
+      "tools": [
+        "pnw2tex",
+        "latexmk"
+      ]
+    },
+    {
+      "name": "tectonic",
+      "tools": [
+        "tectonic"
+      ]
+    }
+  ],
+  "todohighlight.include": [
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.html",
+    "**/*.php",
+    "**/*.css",
+    "**/*.scss",
+    "**/*.tex",
+    "**/*.bib",
+    "**/*.py"
+  ],
+  "todohighlight.keywords": [
+    {
+      "text": "TODO",
+      "color": "#ffffff",
+      "backgroundColor": "#0a8100",
+      "border": "1px solid #0a8100",
+      "borderRadius": "5px",
+      "overviewRulerColor": "grey",
+    },
+    "NOTE",
+    "DEBUG",
+    "REVIEW"
+  ],
+  "todohighlight.exclude": [
+    "**/node_modules/**",
+    "**/bower_components/**",
+    "**/dist/**",
+    "**/build/**",
+    "**/.vscode/**",
+    "**/.github/**",
+    "**/_output/**",
+    "**/*.min.*",
+    "**/*.map",
+    "**/.next/**",
+    "**/*.json"
+  ],
+  "todohighlight.defaultStyle": {
+    "color": "#ffffff",
+    "backgroundColor": "#ff8800",
+    "border": "1px solid #ff8800",
+    "borderRadius": "5px",
+  },
+  "editor.scrollBeyondLastLine": false,
+  "latex-utilities.countWord.format": "${words} Words",
+  "[xml]": {
+    "editor.defaultFormatter": "DotJoshJohnson.xml"
+  },
+  "editor.formatOnSave": true,
+  "xmlTools.xqueryExecutionArguments": [
+    "-xquery",
+    "$(script)",
+    "-in",
+    "$(input)",
+    "-out",
+    "$(input).output.xml"
+  ],
+  "editor.language.colorizedBracketPairs": [],
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "git.suggestSmartCommit": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.cursorSurroundingLines": 3,
+  "workbench.colorCustomizations": {
+    "editor.selectionBackground": "#f6e38d3d"
+  },
+  "editor.multiCursorModifier": "ctrlCmd",
+  "files.exclude": {
+    "": true,
+    "**/.git": false
+  },
+  "latex-workshop.formatting.latex": "latexindent",
+  "editor.accessibilitySupport": "off",
+  "application.shellEnvironmentResolutionTimeout": 120,
+  "editor.renderWhitespace": "trailing",
+  "black-formatter.args": [
+    "--line-length",
+    "80"
+  ],
+  "diffEditor.maxComputationTime": 0,
+  "[python]": {
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.defaultColorDecorators": "never",
+    "editor.formatOnType": true,
+    "editor.wordBasedSuggestions": "off"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "inlineChat.lineNaturalLanguageHint": false,
+  "remote.SSH.configFile": "/Users/i588389/.ssh/config",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "editor.codeActionsOnSave": {},
+  "files.insertFinalNewline": true
+}
